@@ -1,2 +1,2 @@
 # vietnam_blog
-Created with CodeSandbox
+Discover the beauty of Vietnam, where culture and nature unite.
