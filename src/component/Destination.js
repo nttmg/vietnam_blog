@@ -1,8 +1,8 @@
 import DestinationData from "./DestinationData";
-import Mountain1 from "../assests/1.jpg";
-import Mountain2 from "../assests/2.jpg";
-import Mountain3 from "../assests/3.jpg";
-import Mountain4 from "../assests/4.jpg";
+import Mountain1 from "../assests/saigon3.jpg";
+import Mountain2 from "../assests/saigon2.jpg";
+import Mountain3 from "../assests/hanoi1.jpg";
+import Mountain4 from "../assests/hanoi3.jpg";
 
 import "./DestinationStyles.css";
 
@@ -14,16 +14,16 @@ const Destination = () => {
 
       <DestinationData
         className="first-des"
-        heading="Admire the British capital from the London Eye"
-        text="Watch London unfurl from the iconic 135-metre height of the London Eye. The unmatched views extend in every direction, reaching Buckingham Palace, the river Thames and the famed clock tower of the Palace of Westminster. All London’s highlights in one peaceful, 30-minute rotation."
+        heading="Saigon is a vibrant and bustling metropolis located in the southern part of Vietnam"
+        text="As the largest city in the country, it is a hub of commerce, culture, and entertainment. Saigon is a fascinating blend of the old and the new, where modern skyscrapers stand alongside ancient temples and colonial-era buildings. The city is famous for its street food scene, where visitors can savor a variety of delicious local dishes at affordable prices."
         img1={Mountain1}
         img2={Mountain2}
       />
 
       <DestinationData
         className="first-des-reverse"
-        heading="Take in the views of Britain's Lake District"
-        text="Delve into Britain’s natural wonders and take in the panorama of rolling hills, rocky mountains and glittering waters of the Lake District. Abounding in outdoor opportunities from cruises to hilltop walks, you'll find serenity in this national park resting between Leeds and Glasgow."
+        heading="Hanoi, the capital city of Vietnam"
+        text="Known for its ancient temples, historic landmarks, and bustling street markets, Hanoi offers a glimpse into Vietnam's rich cultural heritage. Visitors can explore the city's narrow alleyways and discover hidden gems such as the Temple of Literature, Hoan Kiem Lake, and the Old Quarter."
         img1={Mountain3}
         img2={Mountain4}
       />

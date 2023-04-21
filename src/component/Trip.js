@@ -1,8 +1,8 @@
 import TripData from "./TripData";
 import "./TripStyles.css";
-import Trip1 from "../assests/5.jpg";
-import Trip2 from "../assests/8.jpg";
-import Trip3 from "../assests/6.jpg";
+import Trip1 from "../assests/halong (1).jpg";
+import Trip2 from "../assests/hue2.jpg";
+import Trip3 from "../assests/sapa.jpg";
 
 function Trip() {
   return (
@@ -12,20 +12,20 @@ function Trip() {
       <div className="tripcard">
         <TripData
           image={Trip1}
-          heading="Trip in Indonesia"
-          text="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Bomeo and New Culhea."
+          heading="Halong Bay, located in the northeastern part of Vietnam"
+          text="The bay features thousands of limestone islands and islets, rising majestically from the turquoise waters of the Gulf of Tonkin. Visitors can explore the bay by boat, kayak or seaplane, and admire the breathtaking scenery of towering cliffs, hidden caves, and pristine beaches."
         />
 
         <TripData
           image={Trip2}
-          heading="The British Museum"
-          text="The British Museum is a ticket to relics that reveal some two million years of human history. Feel small standing beneath the colossal presence of Rameses II and contrast the myth and reality of Troy with the graphic world of Manga. This London highlight will take you on a journey of time travel."
+          heading="Hue, was once the imperial capital of the Nguyen Dynasty"
+          text="The city is renowned for its rich history and cultural heritage, with its ancient citadel, royal tombs, and pagodas drawing visitors from all over the world. Hue's most famous attraction is the Imperial City, a vast complex of palaces, temples, and gardens that served as the home of the Nguyen emperors for over a century."
         />
 
         <TripData
           image={Trip3}
-          heading="Natural History Museum"
-          text="The Natural History Museum takes you on an unfathomable discovery of the formation of the solar system and its path to the present. Trace the origin of our species under the shade of a T. rex and glimpse rare meteorites straight from the surface of Mars. If this doesn’t shake you, the earthquake simulator most certainly will."
+          heading="Sapa is a picturesque town situated in the northwest region of Vietnam"
+          text="The town is famous for its stunning natural scenery, including rolling hills, verdant rice terraces, and cascading waterfalls. Visitors to Sapa can enjoy trekking through the lush countryside, interacting with the local ethnic minorities, and experiencing the vibrant traditional culture of the region."
         />
       </div>
     </div>
