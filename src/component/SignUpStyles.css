@@ -1,0 +1,52 @@
+.signupForm {
+    background-color: #fff;
+    width: 40%;
+    margin: 0 auto;
+    height: 250px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.formContainer {
+    background-color: #000;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+.emailInput {
+    margin-top: 15px;
+}
+
+.emailInput label {
+    font-weight: 700;
+    margin-right: 10px;
+    
+}
+
+.emailInput input {
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.sub-btn {
+    margin-top: 25px;
+}
+
+@media (max-width: 957px) {
+    .signupForm {
+        width: 50%;
+    }
+}
+
+@media (max-width: 640px) {
+    .signupForm {
+        width: 80%;
+    }
+}
+
+@media (max-width: 430px) {
+    .signupForm {
+        width: 95%;
+    }
+}
