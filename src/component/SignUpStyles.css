@@ -30,7 +30,15 @@
 }
 
 .sub-btn {
-    margin-top: 25px;
+    margin-top: 20px;
+}
+.error {
+    color: red;
+    margin-left: 50px;
+    font-weight: 700;
+}
+.error-icon {
+    padding-top: 3px;
 }
 
 @media (max-width: 957px) {

@@ -1,14 +1,24 @@
 import React from 'react'
 import "./SignUpStyles.css";
 import { useState } from "react";
+import {FaRegTimesCircle} from "react-icons/fa";
 
 const SignUp = () => {
     const [formData, setFormData] = useState({email:''});
     const handleChange = (event) => {
-        setFormData({ ...formData, [event.target.name]: event.target.value});
+        const { name, value } = event.target;
+        setFormData({
+          ...formData,
+          [name]: value
+    });
+        
     };
     const handleSubmit = (event) => {
-        event.preventDefault(validateForm);
+        event.preventDefault();
+        localStorage.setItem('formData', JSON.stringify(formData));
+        if(validateForm()) {
+          window.alert("Subcrites successfully")
+        };
     };
     const [errors, setErrors] = useState({});
     const validateForm = () => {
@@ -16,6 +26,7 @@ const SignUp = () => {
         if (!formData.email) {
             errors.email = "Email is required";
         }
+        
 
         setErrors(errors);
         return Object.keys(errors).length === 0;
@@ -33,7 +44,9 @@ const SignUp = () => {
                     value={formData.email}
                     onChange={handleChange}
             />
-            {errors.email && <div className="error">{errors.email}</div>}
+            {errors.email && 
+            <div className="error"><FaRegTimesCircle className='error-icon'/>{errors.email}
+            </div>}
         </div>
 
   {/* <div>
