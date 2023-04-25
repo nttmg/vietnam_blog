@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.3601fc1b.css",
-    "main.js": "/static/js/main.fc24cfbc.js",
-    "static/media/3.jpg": "/static/media/3.84d5235cc693e15661d6.jpg",
+    "main.css": "/static/css/main.76d522b1.css",
+    "main.js": "/static/js/main.4227a05f.js",
+    "static/media/hanoi3.jpg": "/static/media/hanoi3.86e88d588ae97cb001b9.jpg",
+    "static/media/saigon2.jpg": "/static/media/saigon2.ce44c58d9aa68e36d12e.jpg",
+    "static/media/hanoi1.jpg": "/static/media/hanoi1.742efac2440912594804.jpg",
+    "static/media/halong (1).jpg": "/static/media/halong (1).e6d2b361ed04572c6c1b.jpg",
+    "static/media/saigon3.jpg": "/static/media/saigon3.febc43903691fc523d60.jpg",
+    "static/media/sapa.jpg": "/static/media/sapa.d11d99dcf03688260809.jpg",
+    "static/media/hue2.jpg": "/static/media/hue2.49a8a0d8cf0691b9d507.jpg",
     "static/media/2.jpg": "/static/media/2.bbb41348bb839b9124d8.jpg",
     "static/media/1.jpg": "/static/media/1.509d4d795248ac9962f3.jpg",
-    "static/media/8.jpg": "/static/media/8.9d1ddd2ceb0e8def6f48.jpg",
-    "static/media/5.jpg": "/static/media/5.46b372902997b3fbd648.jpg",
-    "static/media/6.jpg": "/static/media/6.c405c8228d51cdef5d0f.jpg",
-    "static/media/4.jpg": "/static/media/4.0c7885e97d08f0a61db1.jpg",
     "static/media/night.jpg": "/static/media/night.ac6d287d5d0014553b87.jpg",
     "index.html": "/index.html",
-    "main.3601fc1b.css.map": "/static/css/main.3601fc1b.css.map",
-    "main.fc24cfbc.js.map": "/static/js/main.fc24cfbc.js.map"
+    "main.76d522b1.css.map": "/static/css/main.76d522b1.css.map",
+    "main.4227a05f.js.map": "/static/js/main.4227a05f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3601fc1b.css",
-    "static/js/main.fc24cfbc.js"
+    "static/css/main.76d522b1.css",
+    "static/js/main.4227a05f.js"
   ]
 }
