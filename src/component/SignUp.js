@@ -17,7 +17,7 @@ const SignUp = () => {
         event.preventDefault();
         localStorage.setItem('formData', JSON.stringify(formData));
         if(validateForm()) {
-          window.alert("Subcrites successfully")
+          window.alert("Subscribed successfully")
         };
     };
     const [errors, setErrors] = useState({});

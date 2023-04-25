@@ -6,7 +6,7 @@ const reviewer = [
     name: 'maria ferguson',
     title: 'office manager',
     quote:
-      'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+      'Vietnam is an amazing country with friendly people, delicious food, and a rich history. I was impressed by the natural beauty of places like Ha Long Bay and the Mekong Delta, and I also enjoyed exploring the cities of Hanoi and Ho Chi Minh City. ',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const reviewer = [
     name: 'john doe',
     title: 'regular guy',
     quote:
-      'Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.',
+      '"I had the opportunity to travel to Vietnam and it was one of the best experiences of my life. The culture is so vibrant and the people are incredibly welcoming. ',
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const reviewer = [
     name: 'peter smith',
     title: 'product designer',
     quote:
-      'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.',
+      '"Vietnam is a country that exceeded my expectations. I was blown away by the beauty of the countryside and the warmth of the people. ',
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const reviewer = [
     name: 'susan andersen',
     title: 'the boss',
     quote:
-      'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
+      'Vietnam is a fascinating country that is full of contrasts. The cities are bustling and vibrant, while the countryside is peaceful and serene. The food is delicious and the people are incredibly friendly. ',
   },
 ];
 
