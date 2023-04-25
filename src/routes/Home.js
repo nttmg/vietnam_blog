@@ -3,6 +3,7 @@ import Hero from "../component/Hero";
 import Destination from "../component/Destination";
 import Trip from "../component/Trip";
 import Footer from "../component/Footer";
+import Review from "../component/Review";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
         btnClass="show"
       />
       <Destination />
+      <Review/>
       <Trip />
       <Footer />
     </>
